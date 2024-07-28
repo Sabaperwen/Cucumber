@@ -31,7 +31,7 @@ public class LoginStepDefin {
 	    // Write code here that turns the phrase above into concrete actions
 	    
 		driver.findElement(By.xpath("//input[@name='email']")).sendKeys(string);
-	    driver.findElement(By.xpath("//input[@name='password']")).sendKeys(string2);
+	    driver.findElement(By.xpath("//input[@ame='password']")).sendKeys(string2);
 	}   
 	
 
